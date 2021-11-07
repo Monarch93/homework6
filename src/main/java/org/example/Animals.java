@@ -16,4 +16,10 @@ public class Animals implements Cloneable {
         }
     }
 
+    protected void swims(int distance) {
+        if (swims >= distance) {
+            System.out.println(this.name + " преодолел заплыв " + distance + "м.");
+        }
+    }
+
 }

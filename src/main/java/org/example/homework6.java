@@ -18,8 +18,13 @@ public class homework6 {
         for (int i = 0; i < animals.length; i++) {
             System.out.println(animals[i]);
         }
+        System.out.println("----------------------------------------");
         for (int i = 0; i < animals.length; i++) {
             animals[i].run(500);
+        }
+        System.out.println("----------------------------------------");
+        for (int i = 0; i < animals.length; i++) {
+            animals[i].swims(50);
         }
     }
 }
